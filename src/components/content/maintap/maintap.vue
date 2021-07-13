@@ -4,7 +4,7 @@
       <img slot="item-icon" src="~assets/images/tabbar/home.png" alt="">
       <img slot="item-icon-active" src="~assets/images/tabbar/home_active.png" alt="">
       <div slot="item-text">首页</div></Tab-bar-item>
-     <Tab-bar-item path="/category" > 
+     <Tab-bar-item path="/categroy" > 
        <img slot="item-icon" src="~assets/images/tabbar/category.png" alt="">
        <img slot="item-icon-active" src="~assets/images/tabbar/category_active.png" alt="">
        <div slot="item-text">分类</div></Tab-bar-item>

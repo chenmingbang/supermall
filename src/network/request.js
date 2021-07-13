@@ -8,16 +8,16 @@ export function request(config){
         })
          /* 拦截器的用法 */
          instance.interceptors.request.use(aaa =>{   
-                  console.log(aaa); 
+                  
                   return aaa        /* 拦截请求成功 ，必须返回数据 */
          },err =>{
-                  console.log(err);      /*  请求失败 */
+                       /*  请求失败 */
          })
          instance.interceptors.response.use(aaa =>{
-            console.log(aaa);
+            
             return aaa.data              /* 拦截响应成功， 必须返回数据 不然 你要干嘛 */
    },err =>{
-            console.log(err);        /* 拦截响应失败 */
+                   /* 拦截响应失败 */
    })
         return instance(config)   /* 发送网络请求最终写法*/   
 
